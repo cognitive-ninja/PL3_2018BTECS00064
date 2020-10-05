@@ -1,0 +1,70 @@
+<!-- Author : Saurabh Hirugade -->
+
+<!DOCTYPE html>  
+<html lang="en">  
+    <head>  
+        <meta charset="utf-8" />  
+        <title>Easy Programming</title>  
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700i&display=swap" rel="stylesheet">
+    </head>  
+    <body style="font-family: 'Source Sans Pro', sans-serif;">  
+        
+        <!-- Nav Bar -->
+        <nav style="display: flex;align-items: right;flex-direction: row-reverse;margin-right: 30px;">  
+            <ul><a href="signup.html">Sign Up</a></ul>
+            <ul><a href="login.html">Log In</a></ul>
+            <ul><a href="index.html">Home</a></ul>
+        </nav>
+        
+        <!-- Header -->
+        <header role="banner" style="text-align: center;">  
+            <h1>Easy Programming</h1>  
+        </header>
+        <hr>
+        <article style="margin-left: 25%;margin-top: 5%;margin-bottom: 2%;">
+
+            <h2 >Program to convert Celsius into Fahrenheit</h2>
+            <h3 class="h2">Explanation</h3>
+            <p>Fahrenheit and Celsius are the measures of temperature having Unit in degrees as <sup>o</sup>F</p>
+            <p><sup>o</sup>C respectively. In this tutorial, we have to convert Celsius to Fahrenheit by using the scientific formula in programmes of different languages.</p><br>
+            
+            <h3>Code </h3>
+            <pre>
+            <code>
+            #include < stdio.h >
+            int main()  
+            {   
+                <var>float fahrenheit, celsius;</var>  
+                <kbd>scanf("%d", &celsius);</kbd>
+                fahrenheit =( (celsius*9)/5)+32;  
+                printf("\n\n Temperature in fahrenheit is:  %f",fahrenheit);  
+                return (0);
+            }
+            </code>
+            </pre>
+                    
+            <h3>Sample Input/Output</h3>
+            <pre>
+            <samp>
+            Input : 0
+            Output : 32
+                
+            Input : -40
+            Output : -40
+            </samp>    
+            </pre>
+                
+                <h3>Complexity</h3>
+                <p>O(1)</p>
+            <br><h3>Algorithm</h3>
+            <a href="https://sillycodes.com/c-program-to-convert-temperature-from/" target="_blank">Click on this for Algorithm</a>
+        </article>
+        <hr>
+        <footer style="margin:0% 5% 1% 5%;font-size: large;display: flex;justify-content: space-between;">
+            <ul>Site Owner : Saurabh Hirugade</ul>
+            <ul>Contact Email: saurabhhirugade@gmail.com</ul>
+            <ul>LinkedIn : <a href="https://www.linkedin.com/in/saurabh-hirugade/" target="_blank">Saurabh Hirugade</a></ul>
+            <ul>GitHub : <a href="https://github.com/cognitive-ninja" target="_blank">cognitive_ninja</a></ul>
+        </footer>
+    </body>
+</html>
