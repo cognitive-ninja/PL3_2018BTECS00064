@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />  
+        <title>Register GATE 2021</title>  
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700i&display=swap" rel="stylesheet">
+    </head>
+    <body>  
+
+        <!-- Form Title -->
+        <h1 style="text-align: center;margin: 4% 0% 3% 0%;">GATE 2021 Registration Form</h1>  
+        
+        <!-- Form -->
+        <form method="post" action="D:\Study\3rdYear\PL3\PL3_2018BTECS00064\Practical No 6\Practical No 6B\action.html" style="text-align: center;">  
+            
+            <!-- Student Information -->
+            <fieldset style="margin: 2% 15% 2% 15%; text-align: left;">
+                <legend>Student Information</legend>
+                <div style="display:flex;justify-content:space-between;">
+                    <div>
+                        <label> First Name: </label>         
+                        <input type="text" name="firstname" size="22" placeholder="Type your first name here..." required/>       
+                    </div>
+                    <div>
+                        <label> Middle Name: </label>     
+                        <input type="text" name="middlename" size="22" placeholder="Type your middle name here..." required/>  
+                    </div>
+                    <div>
+                        <label> Last Name: </label>         
+                        <input type="text" name="lastname" size="22" placeholder="Type your last name here..." required/> 
+                    </div>
+                </div>
+                <div style="margin:2% 0% 2% 0%;display:flex;justify-content:space-between;">
+                    <div>
+                        <label> Parent's Name: </label>         
+                        <input type="text" name="parentsname" size="32" placeholder="Type your parent's name here..." required/>       
+                    </div>
+                    <div>
+                        <label>Mob No: </label>  
+                        <input type="text" name="country code"  value="+91" size="2" readonly style="background-color:lightgray;"/>   
+                        <input type="text" name="phone" size="15" required/>       
+                    </div>
+                    <div>
+                        <label>Email: </label>  
+                        <input type="email" id="email" name="email" required/> 
+                    </div>
+                </div> 
+                <div style="text-align: left; margin:2% 0% 2% 0%;display:-webkit-flex;justify-content:space-between;">
+                    <div>
+                        <label>ID Proof: </label>
+                        <select>
+                            <option value="Aadhar Card">Aadhar Card</option>
+                            <option value="College ID" selected>College ID</option>
+                            <option value="Driving License">Driving License</option>
+                        </select>
+                    </div>
+                    <div>  
+                        <textarea cols="50" rows="5" value="address" placeholder="Your Permanent address..." required></textarea> 
+                    </div>
+                </div>
+            </fieldset>
+       
+            <!-- Educational Information -->
+            <fieldset style="margin: 2% 15% 2% 15%; text-align: left;">
+                <legend>Educational Information</legend>
+                <div style="display:flex;justify-content:space-between;">
+                    <div>
+                        <label> Qualification: </label>         
+                        <select id="qualification" multiple>
+                            <option value="10th">10th</option>
+                            <option value="12th">12th</option>
+                            <option value="B.Tech. / B.E.">B.Tech. / B.E.</option>
+                            <option value="B.Sc.">B.Sc.</option>
+                            <option value="Diploma">Diploma</option>
+                        </select>      
+                    </div>
+                    <div>
+                        <label> Branch/Major: </label>         
+                        <select id="major">
+                            <option value="Computer Science and Engineering">Computer Science and Engineering</option>
+                            <option value="Mechanical Engineering">Mechanical Engineering</option>
+                            <option value="Electrical Engineering">Electrical Engineering</option>
+                            <option value="Electronics Engineering">Electronics Engineering</option>
+                            <option value="Other">Other</option>
+                        </select>  
+                    </div>
+                    <div>
+                        <label for="college">Choose your college:</label>
+                        <input list="colleges" name="college" id="college">
+                        <datalist id="colleges">
+                            <option value="WCE, Sangli">
+                            <option value="COE, Pune">
+                            <option value="VJTI, Mumbai">
+                            <option value="NIT, Suratkal">
+                            <option value="IIT, Delhi">
+                            <option value="Other">
+                        </datalist>
+                    </div>
+                    <div>
+                        <label for="university">Choose your university:</label>
+                        <input list="universities" name="university" id="university">
+                        <datalist id="universities">
+                            <option value="Shivaji University, Kolhapur">
+                            <option value="Savitribai Phule University, Pune">
+                            <option value="University of Mumbai">
+                            <option value="JNU, Delhi">
+                            <option value="Other">
+                        </datalist>
+                    </div>
+                </div>
+            </fieldset>
+
+            <!-- Exam Preferences -->
+            <fieldset style="margin: 2% 15% 2% 15%; text-align: left;">
+                <legend>Exam Preferences</legend>
+                <div style="display:flex;justify-content:space-between;">
+                    <div>
+                        <label> Exam Paper branch: </label>         
+                        <select id="exam paper branch">
+                            <option value="Aerospace Engineering">Aerospace Engineering</option>	
+                            <option value="Instrumentation Engineering">Instrumentation Engineering</option>
+                            <option value="Agricultural Engineering">Agricultural Engineering</option>
+                            <option value="Mathematics">Mathematics</option>
+                            <option value="Architecture and Planning">Architecture and Planning</option>
+                            <option value="Mechanical Engineering">Mechanical Engineering</option>
+                            <option value="Biomedical">Biomedical</option>
+                            <option value="Mining Engineering">Mining Engineering</option>
+                            <option value="Civil Engineering">Civil Engineering	</option>
+                            <option value="Computer Science and Information Technology">Computer Science and Information Technology</option>
+                            <option value="Production and Industrial Engineering">Production and Industrial Engineering</option>
+                            <option value="Chemistry">Chemistry</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="exam cities">Choose a exam city:</label>
+                        <select  name="exam city" id="exam city">
+                            <optgroup label="Maharashtra">
+                                <option value="Kolhapur">Kolhapur</option>
+                                <option value="Pune">Pune</option>
+                                <option value="Mumbai">Mumbai</option>
+                            </optgroup>
+                            <optgroup label="Andhra Pradesh">
+                                <option value="Vishakhapatanam">Vishakhapatanam</option>
+                                <option value="Tirupati">Tirupati</option>
+                            </optgroup>
+                            <optgroup label="Karnataka">
+                                <option value="Belgavi">Belgavi</option>
+                                <option value="Banglore">Banglore</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                </div>
+            </fieldset>
+            <input value="Submit" type="submit"/><button type="reset" value="Reset">Reset</button><br><br>
+            <input type="image" src="D:\Study\3rdYear\PL3\PL3_2018BTECS00064\Practical No 6\Practical No 6B\faq.gif" formnovalidate=true formaction="D:\Study\3rdYear\PL3\PL3_2018BTECS00064\Practical No 6\Practical No 6B\faq.html" width="58" height="58">
+        </form>  
+    </body>  
+</html>
