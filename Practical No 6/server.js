@@ -10,7 +10,24 @@ var server = http.createServer(function(request, response) {
             });  
             response.write("Enter Correct URL of the page");  
             response.end();  
-            break;  
+            break;
+
+        case '/feedback':  
+            fs.readFile("D:/Study/3rdYear/PL3/PL3_2018BTECS00064/Practical No 6/Practical No 6A/index.html", function(error, data) {  
+                if (error) {  
+                    response.writeHead(404);  
+                    response.write("CRASHED"); 
+                    response.write(data);  
+                    response.end();  
+                } else {  
+                    response.writeHead(200, {  
+                        'Content-Type': 'text/html'  
+                    });  
+                    response.write(data);  
+                    response.end();  
+                }  
+            });  
+            break; 
         case '/register-gate-2021':  
             fs.readFile("D:/Study/3rdYear/PL3/PL3_2018BTECS00064/Practical No 6/Practical No 6B/index.html", function(error, data) {  
                 if (error) {  
