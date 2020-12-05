@@ -1,0 +1,91 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: rgb(181, 188, 194);
+    margin: 0px;
+}
+.nav-bar{
+    display: flex;
+    align-items: right;
+    flex-direction: row-reverse;
+    /* margin-right: 30px; */
+    color: white;
+    background-color: black;
+    zoom: 110%;
+}
+a.nav-element:link{
+    color: white;
+}
+ul > a:hover{
+    color: red;
+}
+a.nav-element:link {
+    color: white;
+} 
+a.nav-element:visited{
+    color: white;
+}
+
+.header{
+    text-align: center;
+}
+.article{
+    margin-left: 25%;
+    margin-top: 5%;
+    margin-bottom: 2%
+}
+.blog-title{
+    text-align: center;
+    margin-top: 5em;
+}
+.section{
+    text-align: center;
+    margin-top: 5em;
+}
+.left-sidebar{
+    width: 12%;
+    padding-left: 15px;
+    margin-left: 5px;
+    float: left;
+    text-align: left;
+}
+.right-sidebar{
+    width: 15%;
+    padding-right: 15px;
+    margin-right: 5px;
+    float: right;
+    text-align: left;
+    font-size:large;
+}
+.content{
+    text-align: left;
+    font-size: large;
+    margin: 3% 20% 3% 20%;
+}
+.sub-title-line{
+    text-align: center;
+    font-family:'Arial Narrow', Arial;
+}
+.address{
+    text-align: left;
+    font-size: large;
+    margin: 0% 20% 3% 20%;
+    font:oblique;
+}
+#address-title{
+    margin-top:0em;
+    margin-bottom: 2px
+}
+#author-name{
+    margin-top:0em;
+    margin-bottom: 2px;
+}
+#author-contact{
+    margin-top:0em;
+    margin-bottom: 2px;
+}
+.footer{
+    margin:1% 5% 1% 5%;
+    font-size: large;
+    display: flex;
+    justify-content: space-between
+}

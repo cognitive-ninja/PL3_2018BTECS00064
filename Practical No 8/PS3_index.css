@@ -1,0 +1,39 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+}
+.nav-bar{
+    display: flex;
+    align-items: right;
+    flex-direction: row-reverse;
+    /* margin-right: 30px; */
+    color: white;
+    background-color: black;
+    zoom: 110%;
+}
+a:link{
+    color: white;
+}
+a:visited{
+    color: white;
+}
+.header{
+    text-align: center;
+}
+
+.quote{
+    text-align: center;
+    margin: 5% 5% 5% 5%;
+    text-shadow: 2px 2px 5px #ffffff;
+}
+.footer{
+    margin:0;
+    font-size: large;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+body{
+    background: linear-gradient(to right, #9e98f8, rgb(241, 139, 139));
+}
