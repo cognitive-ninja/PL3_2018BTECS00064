@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />  
+        <title>Feedback Form</title>  
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700i&display=swap" rel="stylesheet">
+        <link href="./PS1_index.css" rel="stylesheet">
+    </head>
+    <body>            
+        
+        <nav class="nav-bar">
+            &nbsp&nbsp&nbsp&nbsp&nbsp
+            <ul><li><a href="./PS2_index.html">PS2</a></li></ul>
+            <ul><li><a href="./PS1_index.html">PS1</a></li></ul>
+        </nav>
+
+        <form method="post" action=".\action.html" class="form">
+            
+            <div id="form-title-1">Student Feedback</div>
+            <div id="form-title-2">Please help us improve our courses by filling out this form.</div>
+
+            <aside class="form-left">
+                <div>
+                    <p>Teacher / Instructor first name</p>
+                    <input type="text" style="max-width: 100%;" placeholder="First Name" required/>
+                </div>
+    
+                <div>
+                    <p>Teacher / Instructor last name</p>
+                    <input type="text" style="max-width: 100%;" placeholder="Last Name" required/>
+                </div>
+    
+                <div>
+                    <p>Subject</p>
+                    <input type="text" style="max-width: 100%;" required/>
+                </div>
+    
+                <div>
+                    <p>Course code</p>
+                    <input type="text" style="max-width: 100%;" required/>
+                </div>
+                
+                <div>
+                    <p> <label for="img">Upload Identity:</label></p>
+                    <input type="file" id="img" name="img" accept="image/*" required>
+                </div>
+                
+                <div>
+                    <p> <label for="img">Grade Sheet:</label></p>
+                    <input name="file1" type="file" accept="application/pdf">
+                </div>
+                
+                
+            </aside>
+            
+            <aside  class="form-right">
+                <div class="form-element-label">
+                    <p>Why did you chose this course?</p>
+                    <select>
+                        <option>Degree requirement</option>
+                        <option>Personal interest</option>
+                    </select>
+                </div>
+    
+                <div class="form-element-label">
+                    <p>Level of knowledge on start of course</p>
+                    <select>
+                        <option>Very good</option>
+                        <option>Good</option>
+                        <option>Fair</option>
+                        <option>Poor</option>
+                        <option>Very poor</option>
+                    </select>
+                </div>
+    
+                <div class="form-element-label">
+                    <p>Level of effort invested in course</p>
+                    <select>
+                        <option>Very good</option>
+                        <option>Good</option>
+                        <option>Fair</option>
+                        <option>Poor</option>
+                        <option>Very poor</option>
+                    </select>
+                </div>
+    
+                <div class="form-element-label">
+                    <p>Level of knowledge at the end of the course</p>
+                    <select>
+                        <option>Very good</option>
+                        <option>Good</option>
+                        <option>Fair</option>
+                        <option>Poor</option>
+                        <option>Very poor</option>
+                    </select>
+                </div>
+    
+                <div class="form-element-label">
+                    <p>Level of communication</p>
+                    <select>
+                        <option>Very good</option>
+                        <option>Good</option>
+                        <option>Fair</option>
+                        <option>Poor</option>
+                        <option>Very poor</option>
+                    </select>
+                </div>
+            </aside>       
+
+            <div class="form-textarea-1">
+                    <textarea name="message" rows="10" cols="30">Suggestions(if any):</textarea>
+            </div>
+            <input value="Submit" type="submit"/><button type="reset" value="Reset">Reset</button><br><br>
+            <input type="image" src="D:\Study\3rdYear\PL3\PL3_2018BTECS00064\Practical No 6\Practical No 6A\submit.gif" alt="Submit" width="48" height="48">
+        </form>
+    </body>
+</html>

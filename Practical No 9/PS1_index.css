@@ -1,0 +1,53 @@
+body{
+    background-color: gray;
+    margin: 0;
+}
+.nav-bar{
+    display: flex;
+    text-align: right;
+    zoom: 110%;
+    flex-direction: row-reverse;
+    background-color: white;
+}
+.form{
+    text-align: center;
+    margin: 0% 18% 2% 18%;
+    background-color: aqua;
+}
+#form-title-1{
+    color: white;
+    margin-top: 2%;
+    background-color: gray;
+    padding-bottom: 18px;
+    font-size : 24px;
+}
+#form-title-2{
+    color: white;
+    background-color: gray;
+    padding-bottom: 18px;
+    font-size : 18px;
+}
+.form-left{
+    width: 20%;
+    padding-left: 15px;
+    margin-left: 20%;
+    float: left;
+    text-align: left;
+}
+
+.form-right{
+    width: 20%;
+    padding-left: 15px;
+    margin-right: 20%;
+    float: right;
+    text-align: left;
+}
+.form-element-label
+{
+    padding-bottom: 12px;
+}
+.form-textarea-1{
+    padding-bottom: 18px;
+    margin-top: 60%;
+}
+

@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    background: linear-gradient(to right, rgba(218, 152, 152, 0.66), rgba(241, 238, 152, 0.768));
+}
+.nav-bar{
+    display: flex;
+    text-align: right;
+    flex-direction: row-reverse;
+    color: white;
+    background-color: rgba(27, 5, 81, 0.9);
+}
+a:visited{
+    color: white;
+}
+.footer{
+    margin:0;
+    font-size: large;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(27, 5, 81, 0.9);
+    color: white;
+}
+.address{
+    text-align: center;
+    font-size: smaller;
+    border: 1px;
+    border-style: dotted;
+    /* background: linear-gradient(to right, rgb(218, 152, 152), rgb(241, 238, 152)); */
+    margin: 0% 20% 5% 20%;
+}
